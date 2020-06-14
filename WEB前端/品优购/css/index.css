@@ -1,0 +1,289 @@
+.main{
+    width: 980px;
+    height: 455px;
+    margin-left: 219px;
+    margin-top: 10px;
+}
+.focus{
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+}
+.arrow-l,
+.arrow-r{
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0,0,0,.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.arrow-r{
+    right: 0;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+.circle li{
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.carrent{
+    background-color: #fff;
+}
+.newflash{
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news{
+    height: 163px;
+
+    border: 1px solid #ccc;
+}
+
+.news-hd{
+    font-family: 'icomoon';
+    height: 32px;
+    border-bottom: 1px dotted #CCC;
+    line-height: 32px;
+}
+.news-hd a{
+    float:right;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.news-hd p{
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.news-bd{
+    height: 130px;
+
+}
+.news-bd li{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+.lifeserice{
+    overflow: hidden;
+    height: 208px;
+    background-color: #fff;
+    border:1px solid #ccc ;
+    border-top: none;
+}
+
+.lifeserice ul{
+    width: 260px;
+}
+.lifeserice li{
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.lifeserice li a{
+    display: block;
+    overflow: hidden;
+    height: 100%;
+
+}
+.lifeserice p{
+    font-size: 12px;
+    text-align: center;   
+}
+.service_ico{
+
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin:10px auto;
+    background:url(../img/icons.png)no-repeat;
+}
+.service_ico_huafei{
+    background-position: -17px -16px;
+}
+.service_ico_feiji{
+    width: 26px;
+    background-position: -78px -16px;
+}
+.service_ico_dianyin{
+    background-position: -141px -16px;
+}
+.service_ico_youxi{
+    background-position: -206px -16px;
+}
+.service_ico_caipiao{
+    background-position: -17px -88px;
+}
+.service_ico_jiayou{
+    background-position: -78px -88px;
+}
+.service_ico_jiudian{
+    background-position: -141px -88px;
+}
+.service_ico_huoche{
+    background-position: -206px -88px;
+}
+.service_ico_zhongchou{
+    background-position: -17px -159px;
+}
+.service_ico_licai{
+    background-position: -78px -159px;
+}
+.service_ico_lipin{
+    background-position: -141px -159px;
+}
+.service_ico_baitiao{
+    background-position: -206px -159px;
+}
+.hot{
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 12px;
+    height: 15px;
+    background: url(../img/jian.jpg)no-repeat;
+}
+.bargain{
+    height: 75px;
+    margin-top: 5px;
+}
+.recommend{
+    height: 163px;
+    margin-top: 10px;
+}
+.recommend_hd{
+    float: left;
+    height: 163px;
+    width: 200px;
+    background-color:#5c5251;
+    text-align: center;
+}
+.recommend_hd img{
+
+    margin: 30px 0 10px 0;
+}
+.recommend_hd h3{
+    font-size: 18px;
+    color: #fff;
+    font-weight: normal;
+    height: 163px;
+}
+.recommend_bd{
+    float: left;
+    width: 1000px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+.recommend_bd li{
+    float: left;
+    margin-top: 10px;
+    width: 249px;
+    height: 149px;
+    border-right: 1px solid #ccc;
+}
+.recommend .last{
+    border-right: none;
+}
+
+/* floor */
+.box-hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623 ;
+    margin-top: 25px;
+}
+.box-hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab-list{
+    line-height: 30px;
+}
+.tab-list li{
+    float: left;
+}
+.tab-list li a {
+    margin: 0 15px;
+}
+.box-bd{
+    height: 361px;
+}
+.w209{
+    width: 209px;
+    background-color: #f9f9f9;
+}
+w329{
+    width: 329px;
+}
+.w219{
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+.w220{
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li{
+    float: left;
+    height: 360px;
+}
+.tab-con-item{
+    border-bottom: 1px solid #ccc;
+}
+.tab-con-list{
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.tab-con-list li{
+    width: 86px;
+    height: 32px;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.fixedtool{
+    position: fixed;
+    top: 200px;
+    left: 50%;
+    margin-left: -666px;
+    background-color: pink;
+    width: 66px;
+}
+.fixedtool li{
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current{
+    background-color: #c81623;
+    color:#fff;
+}
