@@ -158,7 +158,11 @@
     line-height: 31PX;
     margin-left: 1px;
     padding:0 10px;
+    transition: all 0.5s;
 
+}
+.menu_item :hover{
+    padding-left: 10px;
 }
 .menu_item:hover{
     background-color: #fff;

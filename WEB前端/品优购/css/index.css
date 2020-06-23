@@ -229,11 +229,20 @@
 .box-bd{
     height: 361px;
 }
+.box-bd li{
+    overflow: hidden;
+}
+.box-bd img{
+    transition: all 0.2s;
+}
+.box-bd img:hover{
+        margin-left:8px;
+}
 .w209{
     width: 209px;
     background-color: #f9f9f9;
 }
-w329{
+.w329{
     width: 329px;
 }
 .w219{
